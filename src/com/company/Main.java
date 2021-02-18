@@ -1,14 +1,22 @@
 package com.company;
 
 import java.util.Arrays;
+import com.company.Slave1;
 
 public class Main {
     public static int numero2 = 2; //global
 
     public static void main(String[] args) {
 
-        Slave1 esclavo = new Slave1(); //decalracion de objet
+        Slave1 esclavo; //DECLARACION
+        esclavo = new Slave1(); //INSTACIACION de objet
 
+        System.out.println(esclavo.VAR1); //    IMPRIMIR: 3
+        System.out.println(); // IMPRIMIR \n
+        esclavo.bubble(); // IMPRIMIR VECTOR ORDENADO
+
+
+/*
         String cadena = "cadena";
         char caracter = 'c';
         char num = 65;
@@ -26,7 +34,7 @@ public class Main {
             System.out.println(i);
             i %= 4;}
 
-
+*/
     }
 
     public static void foo( boolean valor){
