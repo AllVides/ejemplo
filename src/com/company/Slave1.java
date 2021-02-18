@@ -17,10 +17,11 @@ public class Slave1 {
                     vector[i]= vector[j];
                     vector[j] = aux;
                 }
+                
+                }
                 for(int k = 0;k<vector.length;k++){
                     System.out.print(vector[k]+" | ");
 
-                }
                 System.out.println();
 
             }
